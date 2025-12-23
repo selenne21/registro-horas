@@ -1,0 +1,14 @@
+# 🔐 Credenciales (NUNCA subir)
+credenciales.json
+
+# 📊 Datos generados
+*.csv
+*.xlsx
+
+# 🐍 Python
+__pycache__/
+*.pyc
+
+# 🖥️ Windows
+Thumbs.db
+Desktop.ini
