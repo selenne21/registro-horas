@@ -1,3 +1,5 @@
+.streamlit/
+
 # 🔐 Credenciales (NUNCA subir)
 credenciales.json
 
