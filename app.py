@@ -25,7 +25,8 @@ creds = Credentials.from_service_account_info(
 
 client = gspread.authorize(creds)
 
-archivo = client.open("registro_horas_brian")
+archivo = client.open_by_key("1MDS9f1cLCe99VgNcqJzOZwp3Rbql5H7LTjqigJZWb9o")
+
 sheet_eventos = archivo.sheet1
 sheet_semanas = archivo.worksheet("semanas")
 
